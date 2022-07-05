@@ -1,0 +1,149 @@
+html{
+    Background-color: #0c0075;
+    Min-height: 1000px;
+    Font-family: "helvética neve";
+    Background: url(pngegg\ \(3\).png) ,    
+  
+    
+    
+    Linear-gradient(to left, #f05353, #3700fd);
+    text-align:justify;
+    }
+
+    image.pequeña{
+        width: 50px; height: 50px;
+      }
+
+    h1 { 
+
+        color: rgb(0, 6, 92);
+        text-align:justify;
+        font-size:120px;
+        text-align: center;
+        
+      }
+
+      form{
+          font-family: monospace;
+          font-size:116px;
+          text-align:center;
+          margin-left: 120px;
+
+
+
+      }
+
+
+
+
+* {
+    margin: 50;
+    padding: 0;
+    box-sizing: border-box;
+    
+     }
+    
+     img{
+    border: 3px dashed rgb(11, 2, 97);
+    
+    
+     }
+    
+     .center {
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(199, 195, 212);
+    padding: 0px;
+    
+    
+     }
+
+     p{
+       text-align: center;
+       color: rgb(253, 253, 253);
+       font-size: 110%;
+       font-family: Arial, Helvetica, sans-serif;
+       padding: 10px;
+       margin-top: 140px;
+       margin-left: 10px;
+       
+
+
+
+     }
+
+     
+     .contenedor{
+      width: 1000px;
+      height: 400px;
+      color:rgb(37, 0, 173);
+      font-size: 70px;
+      line-height: 5px;
+      display:flex;
+      text-align: center;
+      padding: 30px;
+      text-align: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+      overflow: hidden;
+      position: absolute;
+      top: 30px;
+      margin: 20px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+   
+
+
+  
+    }
+  
+
+    ul{
+
+      list-style: none;
+      padding-left: 10px;
+      animation: cambiar 3s infinite;
+      text-align: center;
+
+    }
+  
+    ul, p{
+
+      margin:0px;
+
+    }
+
+    @keyframes cambiar {
+
+      0%{margin-top: 0;}
+      20%{margin-top: 0;}
+
+      25%{margin-top: -40px;}
+      50%{margin-top: -40px;}
+
+      55%{margin-top: -80px;}
+      80%{margin-top: -80px;}
+
+      85%{margin-top: -40px;}
+      95%{margin-top: -40px;}
+
+      100%{margin-top: 0;}
+
+
+
+
+
+      }
+
+
+
+
+
+
+   
+  
+  

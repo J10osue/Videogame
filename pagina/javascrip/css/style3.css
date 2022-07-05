@@ -1,0 +1,61 @@
+html{
+    Background-color: #0c0075;
+    Min-height: 10px;
+    Font-family: "helvética neve";
+    Background: url(1.0.png) ,    
+  
+    
+    
+    Linear-gradient(to left, #ffffff, #f1efef);
+    text-align:justify;
+    }
+
+    image.pequeña{
+        width: 50px; height: 50px;
+      }
+
+    h1 { 
+
+        color: rgb(0, 6, 92);
+        text-align:justify;
+        font-size:xx-large;
+      }
+
+      form{
+          font-family: monospace;
+          font-size:16px;
+          text-align:start;
+          margin-left: 20px;
+
+
+
+      }
+
+
+
+
+* {
+    margin: 50;
+    padding: 0;
+    box-sizing: border-box;
+    
+     }
+    
+     img{
+    border: 3px dashed rgb(136, 14, 14);
+    
+    
+     }
+    
+     .center {
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(199, 195, 212);
+    padding: 0px;
+    
+    
+     }
+
+     

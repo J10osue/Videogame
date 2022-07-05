@@ -1,0 +1,17 @@
+html{
+    Background-color: #ccd8e2;
+    Min-height: 100px;
+    Font-family: "helvética neve";
+    Background: url(h7.png), 
+    
+    Linear-gradient(to left, #f5f5f5, #f3f3f3);
+    }
+
+    a{
+
+        font-size: 80px;
+        text-align: center;
+        
+        margin: 480px;
+        
+    }

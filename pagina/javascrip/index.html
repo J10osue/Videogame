@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videojuegos</title>
+    <link href="css/style2.css" rel="stylesheet"/>
+<style>
+
+
+.white{
+
+    color: rgb(88, 10, 161);
+}
+
+</style>
+
+
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <div class="contenedor">
+        <p>CURIOSIDADES </p>
+        <Ul> GAMER</Ul>
+ 
+     </div>
+
+
+
+    <h1  id="encabezado"  class="azul"> </h1> <br>
+    <p id="parrafo1"   class="azul">El primer videojuego de la historia en el que se podía disparar fue creado en tan solo 200 horas durante 1961. </p> <br>
+    <p id="parrafo2"  class="azul"> La consola de Play Station 2 y Nintendo DS, son las consolas más vendidas en toda la historia.</p><br>
+    <p id="parrafo3">“Halo 2” es el juego de Xbox más vendido con más de ocho millones de copias.</p><br>
+    <p id="parrafo4">Free Fire es un juego muy fácil de manipular, por lo que es muy querido entre los amantes de los videojuegos.</p><br>
+    <p id="parrafo5">El videojuego que más vale a la fecha en este universo del entretenimiento, es el Nintendo World ChampionShips 1990, y esto es porque solo existen 116 unidades alrededor del planeta.</p><br>
+    
+    <script>
+console.log('BIENVENIDOS AL MUNDO DE LOS VIDEOJUEGOS')
+ const encabezadoh1 = document.getElementById('encabezado'  )     //envebidos, byid, innerhtml
+ const{innerHTML} = encabezadoh1
+ const parrafo1 = document.getElementById('parrafo1')
+
+ console.log('encanbezado: ' + encabezadoh1.innerHTML + 'y el parrado es' + parrafo1.innerHTML)   //strings templates
+ console.log(`encabezado: ${encabezadoh1.innerHTML} y el parrafo es ${parrafo1.innerHTML}`)
+ console.log(`encabezado: ${innerHTML}`) 
+ parrafo1.innerHTML += ' '
+
+ console.log(`El valor es: ${parrafo1.innerHTML}`) 
+ const parrafos = document.getElementsByTagName('p')                          //bytag
+ console.log(`numeros de parrafos: ${parrafos.length}`)
+ for(let i=0; i<parrafos.length; i++){
+console.log(`i: ${i} - ${parrafos[i].innerHTML}`)
+
+ } 
+ const elementos= document.getElementsByClassName('azul')
+ console.log(`numeros de elementos: ${elementos.length}`)                     //byclass
+ for(let i=0; i<elementos.length; i++){ 
+console.log(`i: ${i} - ${elementos[i].innerHTML}`)
+ }
+
+ const elementosp = document.querySelectorAll('p.azul')                         //query
+console.log('-----------------------')
+ for(item of elementosp){
+     console.log(`${item.innerHTML}`)
+     
+ }
+    </script>
+    
+</body>
+</html>

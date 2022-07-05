@@ -1,0 +1,23 @@
+body{
+
+    margin: 0;
+
+
+}
+
+video{
+ position: fixed;
+ min-width: 100%;
+ min-height: 100%;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%) translate(-50%) ;
+
+z-index: -1;
+}
+
+h1{
+
+    color: white;
+}
+

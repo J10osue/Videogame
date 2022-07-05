@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios js</title>
+
+    <link href="css/style.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <br>
+    <br><br>
+
+
+    <div class="contenedor">
+       <p>EL MUNDO </p>
+       <Ul>DE LOS GAMER
+       </Ul>
+
+    </div>
+    <form id="formulario"><br>
+        <br>
+        <br>
+        <br>
+        
+        
+    Pon tu videojuego preferido: <br><br> <input type="text "  name="nombre" value=""/> <br>
+        <br>
+Recomienda un videojuego: <br> <br><input type="text" name="apellido" value=""/> <br> 
+<br>
+
+Una caracteristicas de un gamer:<br> <br><input type="text" name="apellido" value=""/><br> 
+<br>
+
+Tienes pc gamer:<br> <br><input type="text" name="Edad" value=""/> <br> 
+<br>
+Pais donde te gustaria jugar videojuegos: <br><br><input type="text" name="correo" value=""/><br> 
+<br>
+
+
+<div id="valores"></div>
+
+
+</form>
+<button onclick="mostrarvalores()">mostrar</button> 
+<br>
+<br>
+<button onclick="eliminarvalores()">eliminar</button> <br>
+<br>
+
+
+
+
+
+
+
+   <script>
+
+function mostrarvalores(){
+const f= document.forms['formulario']
+let texto = ''
+for(item of f){
+texto += item.value + '<br/><br/>'
+
+
+
+
+}
+console.log(texto)
+document.getElementById('valores').innerHTML = texto
+
+}
+
+
+
+
+</script>
+    
+</body>
+</html>

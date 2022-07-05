@@ -1,0 +1,33 @@
+html{
+    Background-color: #2718fd;
+    Min-height: 1000px;
+    Font-family: "helvética neve";
+    Background: url(1.png) ,  
+    
+    
+
+
+    Linear-gradient(to left, #4712d8, #ffffff);
+    text-align:center;
+    
+   }
+   h1 { 
+
+    
+
+    color: rgb(0, 16, 109);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+  input{
+      width: 320px;
+      
+      border-width: medium;
+      
+      
+
+
+
+  }
